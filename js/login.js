@@ -7,43 +7,43 @@ loginButton.addEventListener("click", e => {
     const username = login.name.value;
     const password = login.password.value;
 
-    if (username === "raja" && password === "raja1943") {
+    if ((username.toLowerCase() === "raja") && password === "raja1943") {
         window.location.href = "familytree.html";
-    } else if (username === "vijayalakshmi" && password === "vijayalakshmi1947") {
+    } else if ((username.toLowerCase() === "vijayalakshmi") && password === "vijayalakshmi1947") {
         window.location.href = "familytree.html";
-    } else if (username === "rajiv" && password === "rajiv1968") {
+    } else if ((username.toLowerCase() === "rajiv") && password === "rajiv1968") {
         window.location.href = "familytree.html";
-    } else if (username === "nisha" && password === "nisha1972") {
+    } else if ((username.toLowerCase() === "nisha") && password === "nisha1972") {
         window.location.href = "familytree.html";
-    } else if (username === "nitish" && password === "nitish2000") {
+    } else if ((username.toLowerCase() === "nitish") && password === "nitish2000") {
         window.location.href = "familytree.html";
-    } else if (username === "sanjiv" && password === "sanjiv1972") {
+    } else if ((username.toLowerCase() === "sanjiv") && password === "sanjiv1972") {
         window.location.href = "familytree.html";
-    } else if (username === "seema" && password === "seema1975") {
+    } else if ((username.toLowerCase() === "seema") && password === "seema1975") {
         window.location.href = "familytree.html";
-    } else if (username === "aryan" && password === "aryan2001") {
+    } else if ((username.toLowerCase() === "aryan") && password === "aryan2001") {
         window.location.href = "familytree.html";
-    } else if (username === "aman" && password === "aman2007") {
+    } else if ((username.toLowerCase() === "aman") && password === "aman2007") {
         window.location.href = "familytree.html";
-    } else if (username === "sachin" && password === "sachin1976") {
+    } else if ((username.toLowerCase() === "sachin") && password === "sachin1976") {
         window.location.href = "familytree.html";
-    } else if (username === "vardhika" && password === "vardhika1981") {
+    } else if ((username.toLowerCase() === "vardhika") && password === "vardhika1981") {
         window.location.href = "familytree.html";
-    } else if (username === "agrasha" && password === "agrasha2009") {
+    } else if ((username.toLowerCase() === "agrasha") && password === "agrasha2009") {
         window.location.href = "familytree.html";
-    } else if (username === "ajay" && password === "ajay1977") {
+    } else if ((username.toLowerCase() === "ajay") && password === "ajay1977") {
         window.location.href = "familytree.html";
-    } else if (username === "yashika" && password === "yashika1980") {
+    } else if ((username.toLowerCase() === "yashika") && password === "yashika1980") {
         window.location.href = "familytree.html";
-    } else if (username === "yashas" && password === "yashas2010") {
+    } else if ((username.toLowerCase() === "yashas") && password === "yashas2010") {
         window.location.href = "familytree.html";
-    } else if (username === "ajay" && password === "ajay1971") {
+    } else if ((username.toLowerCase() === "ajay") && password === "ajay1971") {
         window.location.href = "familytree.html";
-    } else if (username === "sneha" && password === "sneha1974") {
+    } else if ((username.toLowerCase() === "sneha") && password === "sneha1974") {
         window.location.href = "familytree.html";
-    } else if (username === "anay" && password === "anay2000") {
+    } else if ((username.toLowerCase() === "anay") && password === "anay2000") {
         window.location.href = "familytree.html";
-    } else if (username === "aanshi" && password === "aanshi2020") {
+    } else if ((username.toLowerCase() === "aanshi") && password === "aanshi2020") {
         window.location.href = "familytree.html";
     } else {
         loginErrorMsg.style.opacity = 1;
